@@ -1,0 +1,93 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    color: #201a1a;
+    background-color: #1d0404;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 1px solid #444;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ffd700; /* Accent color */
+}
+
+/* Intro Section */
+#intro {
+    background-color: #f1ecec;
+    color: #180a0a;
+    padding: 60px 0;
+}
+
+/* Profile Picture */
+.img-fluid {
+    border: 2px solid #171515;
+    transition: transform 0.3s ease;
+    opacity: 0.5;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+    opacity:1
+}
+
+/* About Me Section */
+#about {
+    color: #555;
+}
+
+#about h2 {
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #222;
+}
+
+#projects h2 {
+    font-size: 2em;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.project {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    background-color: #333;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact Section */
+#contact {
+    color: #888;
+}
+
+#contact h2 {
+    font-size: 2em;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #ffd700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffecb3;
+}

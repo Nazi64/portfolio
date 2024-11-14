@@ -1,0 +1,11 @@
+web framework
+architecture-mvc(model view controller)
+but django uses mvt(model view template)
+model-data
+view-logic
+
+
+pip install virtualenv
+virtualenv env_name
+pip install django
+
